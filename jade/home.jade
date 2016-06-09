@@ -6,7 +6,7 @@ html(lang='es-PE')
     link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
     link(rel='stylesheet', type='text/css', href='css/dist/font-awesome.min.css')
-    link(rel='stylesheet', type='text/css', href='css/dist/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='css/dist/bootstrap.css')
     link(rel="stylesheet",href="css/ionicons.css")
     link(rel='stylesheet', type='text/css', href='css/dist/slick.css')
     link(rel='stylesheet', type='text/css', href='css/dist/slick-theme.css')
@@ -26,40 +26,182 @@ html(lang='es-PE')
                     .col-md-12
                         .img-top
                             img(src="image/banner_top.jpg")
-                        .container
-                            .row
-                                .col-md-6
-                                    ul
-                                        li LIBERO.PE
-                                        li ELPOPULAR.PE
-                                        li FUNDACIÓN GUSTAVO MOHME LLONA
-                                .col-md-6
-                                    ul
-                                        li
-                                            a(href="#") SUSCRÍBETE AL BOLETÍN
-                                        li
-                                            a(href="") 
-                                            i.ion-social-facebook
-                                        li
-                                            a(href="")
-                                            i.ion-social-twitter
-                                        li
-                                            a(href="")
-                                            i.ion-social-googleplus
-                                        li
-                                            a(href="")
-                                            i.ion-ios-email
-                                        li
-                                            a(href="")
-                                            i.ion-social-rss
-                                        li
-                                            a(href="") BUSCAR
-                                            i
-
+                .row
+                    .col-md-6
+                        ul
+                            li LIBERO.PE
+                            li ELPOPULAR.PE
+                            li FUNDACIÓN GUSTAVO MOHME LLONA
+                    .col-md-6
+                        ul
+                            li
+                                a(href="#") SUSCRÍBETE AL BOLETÍN
+                            li                                            
+                                a(href="") 
+                                    i.ion-social-facebook
+                            li
+                                a(href="")
+                                    i.ion-social-twitter
+                            li
+                                a(href="")
+                                    i.ion-social-googleplus
+                            li
+                                a(href="")
+                                    i.ion-ios-email
+                            li
+                                a(href="")
+                                    i.ion-social-rss
+                            li
+                                a(href="") BUSCAR
+                                    i.ion-android-search
         seccion.menu-diario
-    .container
-        seccion.hero-seccion
-        seccion.slider-columnas
-        seccion.noticias-relevantes
-        seccion.ultimas-noticias
-        footer
+            .container
+                .row
+                    .col-md-6
+                        img(src="image/logo-la-republica.jpg", alt="la republica")
+                    .col-md-3
+                        .especial
+                            .sobre ESPECIAL DEL FÚTBOL
+                            .dentro TODO SOBRE LA CHAMPIONS LEAGUE
+                    .col-md-3
+                        .editorial
+                            img(src="image/img_editorial_text.jpg", alt="editorial")
+                            p La corrupción, los orígenes
+                            p por:  Gustavo Mohme Llana
+                            img(src="image/img_author.jpg", alt="autor")
+                .row
+                    .col-md-12
+                        div
+                            ul
+                                li
+                                    a POLÍTICA
+                                li
+                                    a ECONOMÍA
+                                li
+                                    a SOCIEDAD
+                                li
+                                    a ELECC. REGIONALES
+                                li
+                                    a DEPORTES
+                                li
+                                    a CHAMPIONS L.
+                                li
+                                    a ESPECTÁCULOS
+                                li
+                                    a ED. IMPRESA
+                                li
+                                    a REGIONALES
+                                li
+                                    a MÁS SECCIONES
+                                        i.ion-android-arrow-dropdown
+                                    ul
+                                        li
+                                            a AREQUIPA
+    .row
+        .col-md-2
+            img(src="", alt="")
+        .col-md-8
+            .temas TEMAS DEL DÍA
+                ul
+                    li
+                        a(href="")
+                            i.ion-ios-arrow-back
+                    li
+                        a(href="") Globos de oro
+                    li
+                        a(href="") Youtube
+                    li
+                        a(href="") PNP
+                    li
+                        a(href="") Chalie Hebdo
+                    li
+                        a(href="") FC Barcelona
+                    li
+                        a(href="") Alianza Lima
+                    li
+                        a(href="") Balón de Oro
+                    li
+                        a(href="") Alianza Lima
+                    li
+                        a(href="") Municipalidad
+                    li
+                        a(href="")
+                            i.ion-ios-arrow-forward
+        .col-md-2
+   
+        
+    seccion.hero-seccion
+        .container
+            .row
+                .col-md-12
+                    img(src="image/banner-header.jpg", alt="Maestrías")
+            .row
+                .col-md-12
+                    div GUERRA EN LA MUNICIPALIDAD DE LIMA MATROPOLITANA
+                        .info
+                            ul
+                                li
+                                    .icon
+                                        a.ion-social-facebook(href="#")
+                                    .icon
+                                        a.ion-social-twitter(href="#")
+                                    .icon
+                                        a.ion-social-googleplus(href="#")
+                                li &#8226;
+                                li Hace 12 minutos
+                                li &#8226;
+                                li POLÍTICA
+            .row
+                .col-md-6
+                    .grid1
+                        img(src="image/img_grid_principal.jpg", alt="JNE")
+                        .text-grid1 JNE imulsará campaña en favor de la aprobación de la Reforma Electoral
+                .col-md-6
+                    .grid2
+                        ul
+                            li
+                                img(src="image/img_grid_secundario.jpg", alt="")
+                                .text-grid2 Martin Belaunde Lossio: Emrpesas vinculadas al empresario contratron por S/. 3000 millones &#124; FOTO
+                            li
+                                img(src="image/img_grid_secundario.jpg", alt="")
+                                .text-grid2 Sub 20: Perú vs. Paraguay: bicolor empató 1-1 y pasó al hexagonal final del Sudamericano &#124; VIDEO
+    seccion.slider-columnas
+        .container
+            .row
+            .col-md-12
+                .columnistas 
+                    p COLUMNISTAS
+                    .slider-columnistas
+                        div
+                            .img-escritor
+                                img(src="image/img_noticias_relacionadas_slider.jpg", alt="")
+                                p Mario Vargas Llosa
+                                p Megarrenuncia apulpinante
+                        div
+                            .img-escritor
+                                img(src="image/img_blogueros.jpg", alt="")
+                                p Augusto Álvarez Rodrich
+                                p Respuesta a una derrota estridente
+                        div
+                            .img-escritor
+                                img(src="image/img_noticias_relacionadas_slider.jpg", alt="")
+                                p Mario Vargas Llosa
+                                p Megarrenuncia apulpinante
+                        div
+                            .img-escritor
+                                img(src="image/img_blogueros.jpg", alt="")
+                                p Augusto Álvarez Rodrich
+                                p Respuesta a una derrota estridente
+                        div
+                            .img-escritor
+                                img(src="image/img_noticias_relacionadas_slider.jpg", alt="")
+                                p Mario Vargas Llosa
+                                p Megarrenuncia apulpinante
+                        div
+                            .img-escritor
+                                img(src="image/img_blogueros.jpg", alt="")
+                                p Augusto Álvarez Rodrich
+                                p Respuesta a una derrota estridente
+    seccion.noticias-relevantes
+    seccion.ultimas-noticias
+    footer
