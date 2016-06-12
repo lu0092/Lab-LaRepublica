@@ -1,0 +1,47 @@
+doctype html
+html(lang='es')
+head
+	title Contacto
+	meta(charset='UTF-8')
+body
+	.contactese
+		.container
+			.row.nosotros
+				h1.text-center Contáctese con nosotros
+				p Llena este formulario si necesita enviarnos alguna información acerca del contenido de la página web, su funcionalidad, o si tiene alguna propuesta de información o mejora del sitio.Asi mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podrá elegir como destinatario.
+			.row.dates
+				.col-md-6.col-md-offset-3
+					form
+						input.form-control(type='text' placeholder='Nombres Completos') 
+						input.form-control(type='email' placeholder='Correo Electrónico')  
+						input.form-control(type='text' placeholder='Teléfonos')
+						p (Opcional)
+			.row.check
+				.col-md-6.col-md-offset-3
+					h4 Elije un destinatario
+						.col-md-12.form-group
+							.radio
+								input(type="radio", name="optradio") 
+								h5 Sugerencia para el sitio web <span( class="pull-right")>(Ej: funcionamiento y mejoras para el sitio)</span>
+							.radio
+								input(type="radio", name="optradio") 
+								h5 Direccion Periodistica <span( class="pull-right")> (Ej: Sugerencia para la nota de prensa)</span>
+								
+							.radio
+								input(type="radio", name="optradio")
+								h5 Direccion Comercial <span( class="pull-right")>(Ej: Publicidad en Diarios o sitios web)</span>
+								
+							.radio
+								input(type="radio", name="optradio")
+								h5 Cartas al director <span( class="pull-right")> (Ej: Denuncias, comentarios e impresiones)</span>
+								
+							.radio
+								input(type="radio", name="optradio")
+								h5 Promociones y productos del diario <span( class="pull-right")> (Ej: Promociones, Tablet,etc)</span>
+								
+							.radio
+								input(type="radio", name="optradio")
+								h5 Archivo Periodistico <span( class="pull-right")>(Ej: Ediciones impresas/fotos)</span>
+			.row.comentario
+				.col-md-6.col-md-offset-3
+					textarea.form-control(rows="5" id="comment" placeholder='Mensaje')
