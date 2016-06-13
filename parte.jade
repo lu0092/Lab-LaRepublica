@@ -1,0 +1,250 @@
+doctype html(lang='es-PE')
+head
+    meta(charset='UTF-8')
+    title Home
+    link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', type='text/css', href='css/dist/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='css/dist/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='css/dist/slick.css')
+    link(rel='stylesheet', type='text/css', href='css/dist/slick-theme.css')
+    link(rel='stylesheet', type='text/css', href='css/main.css')
+    link(rel='stylesheet', type='text/css', href='style.css')
+    script(src='http://code.jquery.com/jquery-1.11.2.min.js')
+    script(src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
+    script(type='text/javascript', src='js/bootstrap.min.js')
+    script(type='text/javascript', src='js/slick.min.js')
+    script(type='text/javascript', src='js/bootstrap-hover-dropdown.min.js')
+    script(type='text/javascript', src='js/modernizr.custom.68172.js')    
+    script(type='text/javascript', src='js/respond.js')   
+  body
+    header
+      seccion.ultimas-noticias.container
+        .row
+          .col-md-9
+            h3.titulogris ÚLTIMAS NOTICIAS
+              | 
+              img(src="image/double-arrow-bottom.png")
+            mixin noticias
+              ul
+                li.row         
+                  p Hace 1 hora 12 mins
+                  h3 Emma Watson protagonizará La bella y la bestia | VIDEO
+                  .col-md-3
+                    img.imgnoti(src="image/img_news.jpg")
+                  .col-md-9
+                    p La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.
+                    img(src="image/sprites/ico-comments.png")
+                    img(src="image/sprites/ico-comments.png")
+                    img(src="image/sprites/ico-comments.png")
+                hr
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+            +noticias
+          .col-md-3
+            .row.bg-imgpuntos
+              .bg-white
+                img.relative(src='image/img_sucribe.png')
+                h3
+                  strong Suscr&igrave;bete a nuestro bolett&igrave;n               
+                input(type='text')
+                  |               
+                button SUSCRIBIRSE               
+            .row.borde
+              img(src="image/logo_aweita.jpg")
+              mixin aweita
+                ul
+                  li.row
+                    .col-md-4
+                      img(src="image/img_aweita.jpg")
+                    .col-md-8
+                       p Juan Roman Riquelme el adi&ograve;s al &quot;&Ugrave;ltimo 10 de Argentina&quot;
+              +aweita
+              +aweita
+              +aweita
+              +aweita
+              p Màs en 
+                a(href='#') Aweita.pe              
+            div
+              hr.linea-gris
+              p.gris FOTOS DESTACADAS
+              img(src="image/img_fotodes_prominent.jpg")
+              p Lineas de Nasca: admiten prisi&ograve;n preventiva de 6 meses para activista de Greenpeace | FOTOS   
+            mixin destacadas
+                ul
+                  li.row
+                    .col-md-5
+                      img(src="image/img_fotodes.jpg")
+                    .col-md-7
+                     p Uchuraccay: El pueblo que recibe con flores a quienes llegan de pie| FOTOS 
+            +destacadas
+            +destacadas
+            +destacadas
+            div
+              hr.linea-gris
+              p.gris ESPECIALES
+              mixin lista
+                ul
+                  li: img(src="image/img_grid_secundario.jpg")
+                  p Regimen laboral juvenil
+              +lista
+              +lista
+              +lista
+            hr
+            div
+              hr.linea-gris
+              p.gris CARLINCATURA DEL DÌA
+              p Carlincaturas 30-01-2015
+              img(scr="image/listado_carlincatura_thumb_03.jpg")
+            div
+              hr.linea-gris
+              p.gris NUESTROS BLOGUEROS
+              mixin blogueros
+                ul
+                  li.row
+                  .col-md-3
+                    img(src="image/img_blogueros.jpg")
+                  .col-md-9
+                    p Augusto Alvarez Rodrich
+                    p Disney como la protagonista de &apos;La bella.
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+            div
+              hr.linea-roja
+              p.roja La Republica - Lima
+              img(src="image/img_submenu_edimpresa.jpg")
+              mixin impresa
+                ul
+                  li.row
+                  .col-md-5
+                    img(src='image/img_impreso_sd.jpg')
+                  .col-md-7
+                    p Extorsionan a menores en colegios
+                    p:a(href='#') La República
+              +impresa
+              +impresa
+              +impresa
+            div
+              hr.linea-roja
+              p.roja Infografías
+              +lista
+              +lista
+            div.bg-imgpuntos
+              div.bg-white
+                img(scr="image/img_pregunta.png")
+                h2 La pregunta de hoy
+                p ¿Cree usted que la premier Ana Jara debe renunciar?
+                input(type="radio",)
+                p Si
+                input(type="radio",)
+                p No
+                a(href="#") Ver resultdos 
+              div.bg-white
+                h2 La pregunta de ayer
+                p ¿Cree usted que se militarizo la conmemoracion del fallo de la Haya en Lima?
+                div
+                  div.verde
+                    p.absolute 55%
+                  div.rayas
+                div
+                  div.rojo
+                    p.absolute 25%
+                  div.rayas
+                p No
+                a(href="#") Ver preguntas pasadas
+            div.borde
+              img(scr="image/logo_libero.jpg")
+              mixin libero
+                ul
+                  li.row
+                  .col-md-5
+                    img(src="image/img_video_destacado.jpg")
+                  .col-md-7
+                    p fiorentina empato 1-1 en su visita a lafiorentina empato 1-1 en su visita a la
+              +libero
+              +libero
+              +libero
+              +libero
+              p Màs en 
+                a(href='#') Libero.pe
+            div.borde
+              img(scr="image/logo_popular.jpg")
+              mixin elpopular
+                ul
+                  li.row
+                  .col-md-5
+                    img(src="image/fotogaleria_col02_01.jpg")
+                  .col-md-7
+                    p fiorentina empato 1-1 en su visita a lafiorentina empato 1-1 en su visita a la
+
+              +elpopular
+              +elpopular
+              +elpopular
+              +elpopular
+              p Màs en 
+                a(href='#') elPopular.pe
+            div.borde
+              img(scr="image/logo_wapa.jpg")
+              mixin wapa
+                ul
+                  li.row
+                  .col-md-5
+                    img(src="image/img_news_grid.jpg")
+                  .col-md-7
+                    p ¿Como renovar el guardaropa de los más pequeños en este verano?
+
+              +wapa
+              +wapa
+              +wapa
+              +wapa
+              p Màs en 
+                a(href='#') wapa.pe
+            div.bg-imgpuntos
+              div.bg-white
+                img(scr="image/img_reporteroc.png")
+                h2 Reportero ciudadano
+                img(scr="image/img_sd_reporteroc.jpg" )
+                p: strong Estacionamiento indebido
+                p ¿Está permitido que dejen su auto en reiteradas veces todo la noche en la puerta de tu casa?
+              buton ENVIAR FOTOS
+              a(href="#") Mas fotos
+
+
+
+
+
+
+
+
+
+
+
+
+
