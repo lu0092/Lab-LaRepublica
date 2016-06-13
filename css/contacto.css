@@ -1,5 +1,7 @@
-* {
-  outline: 1px solid red;
+.title-contactanos {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .inputentrada {
@@ -7,7 +9,18 @@
   background-color: #EEEEEE;
   margin-top: 30px;
   display: block;
-  width: 100%;
+  width: 57%;
+  margin-left: 23%;
+  height: 35px;
+  padding-left: 10px;
+}
+
+.opcional {
+  margin-left: 23%;
+}
+
+.title-destinatario {
+  margin-left: 23%;
 }
 
 button {
@@ -15,4 +28,34 @@ button {
   text-align: center;
   text-color: #fff;
   margin-top: 30px;
+}
+
+.radio {
+  margin-left: 25%;
+}
+
+.derecha {
+  margin-right: 28%;
+  float: right;
+}
+
+.textarea {
+  height: 120px;
+  border-radius: 3px;
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  display: block;
+  width: 57%;
+  margin-left: 23%;
+}
+
+.textarea::-webkit-input-placeholder {
+  position: relative;
+  top: -35px;
+  left: 5px;
+}
+
+.btn {
+  margin-left: 42%;
+  width: 20%;
 }

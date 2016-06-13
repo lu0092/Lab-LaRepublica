@@ -1,18 +1,62 @@
 
 $m30:30px;
+$m40:40px;
+$m45:45px;
+$m23m:23%;
+$m25m:25%;
+$m28m:28%;
+$m33m:42%;
 $negro:#000;
 $blanco: #fff;
-*{outline:1px solid red;}
+.title-contactanos{
+	font-size:$m45;
+	font-weight:bold;
+	text-align:center;
+}
+
 .inputentrada{
 	border-radius:3px;
 	background-color:#EEEEEE;
 	margin-top:$m30;
 	display:block;
-	width:100%;
-
+	width:57%;
+	margin-left:$m23m;
+	height:35px;
+	padding-left:10px;
+}
+.opcional{
+	margin-left:$m23m;
+}
+.title-destinatario{
+	margin-left:$m23m;
 }
 button{
 	background-color:$negro;
 	text-align:center;
 	text-color:$blanco;
 	margin-top:$m30;}
+.radio{
+	margin-left:$m25m;
+}
+.derecha{
+	margin-right:$m28m;
+	float:right;
+}
+.textarea{
+	height:120px;
+	border-radius:3px;
+	background-color:#EEEEEE;
+	margin-top:$m30;
+	display:block;
+	width:57%;
+	margin-left:$m23m;
+}
+.textarea::-webkit-input-placeholder {
+  position: relative;
+  top:-35px;
+  left:5px;
+}
+.btn{
+	margin-left:$m33m;
+	width:20%;
+}

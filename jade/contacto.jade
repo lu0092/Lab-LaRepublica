@@ -1,57 +1,3 @@
-doctype html
-<<<<<<< HEAD
-html(lang='es')
-head
-	title Contacto
-	meta(charset='UTF-8')
-	link(rel='stylesheet', type='text/css', href='css/contacto.css')
-body
-	//- include head
-	.contactese
-		.container
-			.row.nosotros
-				h1.text-center. Contáctese con nosotros
-				p Llena este formulario si necesita enviarnos alguna información acerca del contenido de la página web, su funcionalidad, o si tiene alguna propuesta de información o mejora del sitio.Asi mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podrá elegir como destinatario.
-			.row.datos
-				.col-md-6
-					form
-						input.inputentrada(type='text' placeholder='Nombres Completos') 
-						input.inputentrada(type='email' placeholder='Correo Electrónico')  
-						input.inputentrada(type='text' placeholder='Teléfonos')
-						p (Opcional)
-			.row.elegir
-				.col-md-6
-					h4 Elije un destinatario
-						.col-md-12.form-group
-							.radio
-								input(type="radio", name="optradio") 
-								h5 Sugerencia para el sitio web <span( class="pull-right")>(Ej: funcionamiento y mejoras para el sitio)</span>
-							.radio
-								input(type="radio", name="optradio") 
-								h5 Direccion Periodistica <span( class="pull-right")> (Ej: Sugerencia para la nota de prensa)</span>
-								
-							.radio
-								input(type="radio", name="optradio")
-								h5 Direccion Comercial <span( class="pull-right")>(Ej: Publicidad en Diarios o sitios web)</span>
-								
-							.radio
-								input(type="radio", name="optradio")
-								h5 Cartas al director <span( class="pull-right")> (Ej: Denuncias, comentarios e impresiones)</span>
-								
-							.radio
-								input(type="radio", name="optradio")
-								h5 Promociones y productos del diario <span( class="pull-right")> (Ej: Promociones, Tablet,etc)</span>
-								
-							.radio
-								input(type="radio", name="optradio")
-								h5 Archivo Periodistico <span( class="pull-right")>(Ej: Ediciones impresas/fotos)</span>
-			.row.comentario
-				.col-md-6
-					textarea.inputentrada(rows="5" id="comment" placeholder='Mensaje')
-			.row
-				button(class="btn") ENIAR
-	include footer.jade
-=======
 html(lang='es-PE')
 	head
 		meta(charset='UTF-8')
@@ -66,6 +12,7 @@ html(lang='es-PE')
 		link(rel='stylesheet', type='text/css', href='css/dist/slick-theme.css')
 		link(rel='stylesheet', type='text/css', href='css/main.css')
 		link(rel='stylesheet', type='text/css', href='css/columnistas.css')
+		link(rel='stylesheet', type='text/css', href='css/contacto.css')
 		script(src='http://code.jquery.com/jquery-1.12.3.min.js')
 		script(src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
 		script(type='text/javascript', src='js/bootstrap.min.js')
@@ -182,17 +129,41 @@ html(lang='es-PE')
 									li.pad-right-5.inline
 										a.color-negro.pad-left-5(href="")
 											i.ion-ios-arrow-forward
-							.banner.mar-top-10
-								img(src="image/banner-header.jpg", alt="Maestrías")
-							.title-contactanos Contáctese con nosotros
+							.title-contactanos.pad-top-35 Contáctese con nosotros
 							p.texto-contactanos.pad-top-35 Llena este formulario si necesita enviarnos alguna información acerca del contenido de la página web, su funcionalidad, o si tiene alguna propuesta de información o mejora del sitio.Asi mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podrá elegir como destinatario.
-							.row
-								form
-									input.inputentrada(type='text' placeholder='Nombres Completos') 
-									input.inputentrada(type='email' placeholder='Correo Electrónico')  
-									input.inputentrada(type='text' placeholder='Teléfonos')
-									p (Opcional)
+							form
+								input.inputentrada(type='text' placeholder='Nombres Completos') 
+								input.inputentrada(type='email' placeholder='Correo Electrónico')  
+								input.inputentrada(type='text' placeholder='Teléfonos')
+								p.opcional (Opcional)
+							.marcadores
+								h4.title-destinatario.pad-top-35 Elije un destinatario
+								.radio
+									input.marcador(type="radio", name="optradio") 
+									h5 Sugerencia para el sitio web <span( class="derecha text10")>(Ej: funcionamiento y mejoras para el sitio)</span>
+								.radio
+									input.marcador(type="radio", name="optradio") 
+									h5 Direccion Periodistica <span( class="derecha text10")> (Ej: Sugerencia para la nota de prensa)</span>
+									
+								.radio
+									input.marcador(type="radio", name="optradio")
+									h5 Direccion Comercial <span( class="derecha text10")>(Ej: Publicidad en Diarios o sitios web)</span>
+									
+								.radio
+									input.marcador(type="radio", name="optradio")
+									h5 Cartas al director <span( class="derecha text10")> (Ej: Denuncias, comentarios e impresiones)</span>
+									
+								.radio
+									input.marcador(type="radio", name="optradio")
+									h5 Promociones y productos del diario <span( class="derecha text10")> (Ej: Promociones, Tablet,etc)</span>
+									
+								.radio
+									input.marcador(type="radio", name="optradio")
+									h5 Archivo Periodistico <span( class="derecha text10")>(Ej: Ediciones impresas/fotos)</span>
+								input.textarea(rows="5" id="comment" placeholder='Mensaje')
+								button.btn.color-blanco.mar-top-25.mar-bottom-35(class="btn") ENVIAR
 						.col-md-1
 							.publicidad-derecha
 								img(src="image/Publicidad_2.png", alt="")
->>>>>>> 898570dc0b85f270106686c30632cf8954fa40cb
+	include footer.jade
+
