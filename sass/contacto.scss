@@ -1,1 +1,18 @@
+
+$m30:30px;
+$negro:#000;
+$blanco: #fff;
 *{outline:1px solid red;}
+.inputentrada{
+	border-radius:3px;
+	background-color:#EEEEEE;
+	margin-top:$m30;
+	display:block;
+	width:100%;
+
+}
+button{
+	background-color:$negro;
+	text-align:center;
+	text-color:$blanco;
+	margin-top:$m30;}
