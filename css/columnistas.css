@@ -54,3 +54,10 @@
 .columnas {
   width: 98%;
 }
+
+.btn-columnas {
+  background-color: #de0000;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20%;
+}
