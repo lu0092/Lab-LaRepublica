@@ -1,0 +1,491 @@
+$style:none;
+$inline:inline-block;
+$m2: 2px;
+$m5: 5px;
+$m8:8px;
+$m10: 10px;
+$m11: 11px;
+$m12:12px;
+$m15:15px;
+$m18:18px;
+$m20:20px;
+$m25:25px;
+$m30:30px;
+$m35:35px;
+$m40:40px;
+$m45:45px;
+$m48:48px;
+$m60:60px;
+$m150: 150px;
+$m200: 200px;
+$m100: 100%;
+$oswall:'Oswald', sans-serif;
+$gris-claro:#eeecec;
+$rojo-bajo:#ec5454;
+$blanco:#fff;
+$azulfb:#3b5998;
+$azultwitter:#00aced;
+$rojogp:#d34836;
+$rojorepu:#de0000;
+$message:#FFCF01;
+$rss:#ff6600;
+$negro:#000;
+
+.body{
+	font-family:$oswall;
+}
+.list-style{
+	list-style: $style;
+}
+.deconon{
+	text-decoration: $style;
+}
+.inline{
+	display: $inline;
+}
+.fondo-gris{
+	background-color: $gris-claro;
+}
+.publicidad{
+	width: $m100;
+	height: $m150;
+}
+.pad-topbot-5{
+	padding-top:$m5;
+	padding-bottom:$m5;	
+}
+.pad-riglef-8{
+	padding-right:$m8;
+	padding-left:$m8;
+}
+.pad-top-5{
+	padding-top:$m5;
+}
+.pad-top-10{
+	padding-top:$m10;
+}
+.pad-top-15{
+	padding-top:$m15;
+}
+.pad-top-18{
+	padding-top:$m18;
+}
+.pad-top-20{
+	padding-top:$m20;
+}
+.pad-top-35{
+	padding-top:$m35;
+}
+.pad-right-5{
+	padding-right: $m5;
+}
+.pad-right-10{
+	padding-right:$m10;}
+.pad-right-15{
+	padding-right:$m15;
+}
+.pad-left-0{
+	padding-left: 0;
+}
+.pad-left-5{
+	padding-left: $m5;
+}
+.pad-left-15{
+	padding-left: $m5;
+}
+.pad-left-40{
+	padding-left:$m40;
+}
+.pad-bottom-10{
+	padding-bottom:$m10;
+}
+.pad-bottom-40{
+	padding-bottom:$m40;
+}
+.pad-bottom-60{
+	padding-bottom:$m60;
+}
+.mar-top-10{
+	margin-top:$m10;}
+.mar-top-20{
+	margin-top:$m20;}
+.mar-top-35{
+	margin-top:$m35;}
+.mar-bottom-35{
+	margin-bottom:$m35;}
+.mar-bottom-20{
+	margin-bottom:$m20;}
+.mar-left-15{
+	margin-left:$m15;
+}
+.mar-left-25{
+	margin-left:$m25;
+}
+.mar-left-35{
+	margin-left:$m35;
+}
+.mar-left-40{
+	margin-left:$m40;
+}
+.bg-gris{
+	background-color:$gris-claro;
+}
+.bg-negro{
+	background-color:$negro;
+}
+.color-negro{
+	color:$negro;
+}
+.color-blanco{
+	color:$blanco;
+}
+.bold{
+	font-weight:bold;
+}
+.btn-rojo{
+	background-color:$rojo-bajo;
+	border-radius: $m5;
+	color:$blanco;
+	padding:$m5;
+}
+.text18{
+	font-size:$m18;
+}
+.text15{
+	font-size:$m15;
+}
+.text12{
+	font-size:$m12;
+}
+.text11{
+	font-size:$m11;
+}
+.text10{
+	font-size:$m5;
+}
+.fb{
+	color:$azulfb;
+}
+.twitter{
+	color:$azultwitter;
+}
+.googleplus{
+	color:$rojogp;
+}
+.message{
+	color:$message;
+}
+.rss{
+	color:$rss;
+}
+.negro{
+	color:$negro;
+}
+.buscar{
+	border-left: 1px solid $negro;
+	border-right:1px solid $negro;
+	padding:$m5;
+}
+.especial{
+	border:1px solid $negro;
+	border-bottom: 3px solid $negro,
+}
+.sobre{
+	background-color:$negro;
+	color:$blanco;
+	width:66%;
+	text-align:center;
+	position:relative;
+	top:-10px;
+	left:45px;
+	font-family: 'Special Elite', cursive;
+}
+.dentro{
+	font-size: $m12;
+	font-weight: 700;
+	padding-left:$m15;
+	padding-bottom: $m10;
+}
+.editorial{
+	border: 1px solid $negro;
+	border-radius:10px;
+	width:65%;
+	position:relative;
+}
+.hori{
+	position:absolute;
+	height:59px;
+	top:1px;
+	left:-15px;
+}
+.author{
+	position:absolute;
+	top:-2px;
+	right:-20px;
+}
+.frase-principal{
+	position:relative;
+}
+.frase-secundario{
+	position:absolute;
+}
+.premenu{
+	background-color:$rojorepu;
+}
+.temas{
+	height:30px;
+	width:100%;
+	border-radius:8px;
+}
+.fancyNav{
+	/* Affects the UL element */
+	overflow: hidden;
+	display: inline-block;
+}
+.publicidad-izquierda{
+	position:absolute;
+	left:-70px;
+}
+.absolute{
+	position:absolute;
+}
+.relative{
+	position:relative;
+}
+.title{
+	border-top-left-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+}
+.titular{
+	font-size:55px;
+	line-height:1;
+}
+.icon{
+	background-color:$gris-claro;
+	font-size: $m18;
+	padding:$m2 $m5 0;
+	border-radius:$m5;
+	border-bottom:4px solid $azultwitter
+}
+.icon:first-child{
+	padding: $m2 $m10 0;
+	border-bottom:4px solid $azulfb;
+}
+.icon:last-child{
+	border-bottom:4px solid $rojogp;
+}
+.point{
+	font-size:$m25;
+	padding: 0 $m10;
+}
+.posicion{
+	position:relative;
+	top:5px;
+}
+.text-grid1{
+	background-image: -webkit-gradient(
+  	linear, left top, left bottom, from(rgba(80,80,80,0.2)),
+  	to(rgba(50,50,50,0.8))
+);
+	position:absolute;
+	bottom:0px;
+	font-size: 28px;
+	padding:20px;
+	margin-right:10px;
+	font-weight:550;
+	padding-top:350px;
+	width:94%;
+}
+.text-grid2{
+	background-image: -webkit-gradient(
+  	linear, left top, left bottom, from(rgba(80,80,80,0.2)),
+  	to(rgba(50,50,50,0.8))
+);
+	position:absolute;
+	bottom:285px;
+	font-size:20px;
+	width:85%;
+	padding:120px 15px 10px 15px;}
+.text-grid3{
+	background-image: -webkit-gradient(
+  	linear, left top, left bottom, from(rgba(80,80,80,0.2)),
+  	to(rgba(50,50,50,0.8))
+);
+	position:absolute;
+	bottom:10px;
+	width:85%;
+	padding:120px 15px 10px 15px;
+	font-size:20px;
+}
+.columnistas{
+	height:300px;
+}
+.colum{
+	color:$rojorepu;
+	border:3px solid $rojorepu;
+}
+.title-colum{
+	padding:7px 10px;
+	background-color:$rojorepu;
+	width:14.4%;
+	position:relative;
+	left:415px;
+	top:-33px;
+	font-size:20px;
+	font-family:$oswall;
+}
+.mario{
+	position:relative;
+	top:0;
+	width:14%;
+}
+.img-escritor{
+	width:60%;
+	border:3px solid $blanco;
+}
+.augusto{
+
+	width:16%;	
+}
+
+.foto-augusto{
+	width:54%;
+	border:3px solid $blanco;
+}
+.fancyNav li{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+	background-color: #fF0000;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#fF0020), color-stop(0.5,#e31c1c), color-stop(0.51, #f21313));
+	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: linear-gradient(#FF0020 0%, #fF0020 50%, #FF0020 51%);
+	
+	border-right: 1px solid rgba(255,255,255,0.125);
+	
+	/* Adding a 1px inset highlight for a more polished efect: */
+	
+	box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 1px -1px 0 #e31c1c inset;
+	
+	position:relative;
+	
+	float: left;
+	list-style: none;
+}
+
+.fancyNav li:after{
+
+	/* This creates a pseudo element inslide each LI */	
+	
+	content:'.';
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	opacity:0;
+	
+	/* Gradients! */
+	
+	background-image:-webkit-gradient(linear, left top, right top, from(rgba(168,168,168,0.5)),color-stop(0.5,rgba(168,168,168,0)), to(rgba(168,168,168,0.5)));
+	background-image:-moz-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-o-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-ms-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	
+	/* Creating borders with box-shadow. Useful, as they don't affect the size of the element. */
+	
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	/* This will create a smooth transition for the opacity property */
+	
+	-moz-transition:0.25s all;
+	-webkit-transition:0.25s all;
+	-o-transition:0.25s all;
+	transition:0.25s all;
+}
+
+/* Treating the first LI and li:after elements separately */
+
+.fancyNav li:first-child{
+	border-radius: 4px 0 0 4px;
+}
+
+.fancyNav li:first-child:after,
+.fancyNav li.selected:first-child:after{
+	box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	border-radius:4px 0 0 4px;
+}
+
+.fancyNav li:last-child{
+	border-radius: 0 4px 4px 0;
+}
+
+/* Treating the last LI and li:after elements separately */
+
+.fancyNav li:last-child:after,
+.fancyNav li.selected:last-child:after{
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	
+	border-radius:0 4px 4px 0;
+}
+
+.fancyNav li:hover:after,
+.fancyNav li.selected:after,
+.fancyNav li:target:after{
+	/* This property triggers the CSS3 transition */
+	opacity:1;
+}
+
+.fancyNav:hover li.selected:after,
+.fancyNav:hover li:target:after{
+	/* Hides the targeted li when we are hovering on the UL */
+	opacity:0;
+}
+
+.fancyNav li.selected:hover:after,
+.fancyNav li:target:hover:after{
+	opacity:1 !important;
+}
+
+/* Styling the anchor elements */
+
+.fancyNav li a{
+	color: #FFF;
+	display: inline-block;
+	font: 10px/1 Arial;
+	padding: 6px 13px 6px;
+	position: relative;
+	text-shadow: 1px 1px 0 rgba(204,0,0,0.6);
+	z-index:2;
+	text-decoration:none !important;
+	white-space:nowrap;
+}
+
+.fancyNav a.homeIcon{
+	background:url('../img/home.png') no-repeat center center;
+	display: block;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-indent: -9999px;
+	width: 16px;
+}
+nav{
+	display: block;
+	margin: 10px 30px 0;
+	text-align: center;
+	width: 1050px;
+}
