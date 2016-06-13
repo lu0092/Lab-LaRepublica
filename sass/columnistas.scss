@@ -1,0 +1,59 @@
+$rojorepu:#de0000;
+$oswall:'Oswald', sans-serif;
+$blanco: #fff;
+$m5: 5px;
+$m8:8px;
+$m10:10px;
+$m11:11px;
+$m12:12px;
+$m15:15px;
+$gris-claro:#919191;
+$gris:#727272;
+
+.sobre1{
+	background-color: $rojorepu;
+	width: 40%;
+	font-family: 'Special Elite', cursive;
+	color: #fff;
+	position:relative;
+	top:-10px;
+	left:75px;
+	padding-top:$m5;
+}
+.dentro1{
+	font-size: $m11;
+	font-weight: bold;
+	padding-left:$m15;
+	padding-bottom: $m15;
+}
+.title-columnistas{
+	font-size: 38px;
+	font-weight:bold;
+	font-family: Arial;
+	padding-top:$m15;
+}
+.ultimo{
+	font-family:$oswall;
+	color:$gris-claro;
+}
+.columnistas-destacados{
+	width:30%;
+	border:1px solid $gris-claro;
+}
+.autor{
+	border:3px solid #fff;
+}
+.sub{
+	color:$gris;
+}
+.nombre-autor{
+	font-family:$oswall;
+	font-size:$m12;
+}
+.informacion{
+	position:relative;
+	top:-18px;
+}
+.columnas{
+	width:98%;
+}
