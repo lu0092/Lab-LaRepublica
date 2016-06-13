@@ -137,6 +137,10 @@
   margin-bottom: 35px;
 }
 
+.mar-bottom-10 {
+  margin-bottom: 10px;
+}
+
 .mar-bottom-20 {
   margin-bottom: 20px;
 }
@@ -169,12 +173,12 @@
   margin-left: 50px;
 }
 
-.mar-right-35 {
-  margin-right: 35px;
-}
-
 .mar-right-50 {
   margin-right: 50px;
+}
+
+.mar-right-10 {
+  margin-right: 10px;
 }
 
 .bg-gris {
