@@ -15,6 +15,7 @@ $m35:35px;
 $m40:40px;
 $m45:45px;
 $m48:48px;
+$m50:50px;
 $m60:60px;
 $m150: 150px;
 $m200: 200px;
@@ -137,11 +138,23 @@ $negro:#000;
 .mar-left-25{
 	margin-left:$m25;
 }
+.mar-left-30{
+	margin-left:$m30;
+}
 .mar-left-35{
 	margin-left:$m35;
 }
 .mar-left-40{
 	margin-left:$m40;
+}
+.mar-left-50{
+	margin-left:$m50;
+}
+.mar-right-35{
+	margin-right:$m35;
+}
+.mar-right-50{
+	margin-right:$m50;
 }
 .bg-gris{
 	background-color:$gris-claro;
