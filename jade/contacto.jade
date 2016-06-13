@@ -3,19 +3,20 @@ html(lang='es')
 head
 	title Contacto
 	meta(charset='UTF-8')
-	include
+	link(rel='stylesheet', type='text/css', href='css/contacto.css')
 body
+	//- include head
 	.contactese
 		.container
 			.row.nosotros
-				h1.text-center Contáctese con nosotros
+				h1.text-center. Contáctese con nosotros
 				p Llena este formulario si necesita enviarnos alguna información acerca del contenido de la página web, su funcionalidad, o si tiene alguna propuesta de información o mejora del sitio.Asi mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podrá elegir como destinatario.
 			.row.datos
 				.col-md-6
 					form
-						input.form-control(type='text' placeholder='Nombres Completos') 
-						input.form-control(type='email' placeholder='Correo Electrónico')  
-						input.form-control(type='text' placeholder='Teléfonos')
+						input.inputentrada(type='text' placeholder='Nombres Completos') 
+						input.inputentrada(type='email' placeholder='Correo Electrónico')  
+						input.inputentrada(type='text' placeholder='Teléfonos')
 						p (Opcional)
 			.row.elegir
 				.col-md-6
@@ -45,5 +46,7 @@ body
 								h5 Archivo Periodistico <span( class="pull-right")>(Ej: Ediciones impresas/fotos)</span>
 			.row.comentario
 				.col-md-6
-					textarea.form-control(rows="5" id="comment" placeholder='Mensaje')
+					textarea.inputentrada(rows="5" id="comment" placeholder='Mensaje')
+			.row
+				button(class="btn") ENVIAR
 	include footer.jade
