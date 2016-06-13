@@ -1,0 +1,534 @@
+doctype html
+html(lang='es-PE')
+  head
+    meta(charset='UTF-8')
+    title Blog
+    link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css')
+    link(rel='stylesheet', type='text/css', href='css/dist/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='css/dist/bootstrap.css')
+    link(rel="stylesheet",href="css/ionicons.css")
+    link(rel='stylesheet', type='text/css', href='css/dist/slick.css')
+    link(rel='stylesheet', type='text/css', href='css/dist/slick-theme.css')
+    link(rel='stylesheet', type='text/css', href='css/main.css')
+    link(rel='stylesheet', type='text/css', href='css/columnistas.css')
+    script(src='http://code.jquery.com/jquery-1.12.3.min.js')
+    script(src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
+    script(type='text/javascript', src='js/bootstrap.min.js')
+    script(type='text/javascript', src='js/slick.min.js')
+    script(type='text/javascript', src='js/bootstrap-hover-dropdown.min.js')
+    script(type='text/javascript', src='js/modernizr.custom.68172.js')
+    script(type='text/javascript', src='js/respond.js')
+  body
+    header
+        seccion
+            .fondo-gris.publicidad
+                .container
+                    .row
+                        .col-md-12
+                            .img-top.text-center.pad-top-10
+                                img(src="image/banner_top.jpg")
+                    .row.text-center
+                        .col-md-6
+                            ul.list-style.pad-top-20
+                                li.inline.pad-right-15.pad-left-40.bold.text12 LIBERO.PE
+                                li.inline.pad-right-15.bold.text12 ELPOPULAR.PE
+                                li.inline.pad-right-15.bold.text12 FUNDACIÓN GUSTAVO MOHME LLONA
+                        .col-md-6.text-left
+                            ul.list-style.pad-top-18
+                                li.pad-right-10.inline
+                                    a.deconon.btn-rojo.text12(href="#") SUSCRÍBETE AL BOLETÍN
+                                li.pad-right-10.inline                                            
+                                    a.deconon(href="") 
+                                        i.text18.fb.ion-social-facebook
+                                li.pad-right-10.inline
+                                    a.deconon(href="")
+                                        i.text18.twitter.ion-social-twitter
+                                li.pad-right-10.inline
+                                    a.deconon(href="")
+                                        i.text18.googleplus.ion-social-googleplus
+                                li.pad-right-10.inline
+                                    a.deconon(href="")
+                                        i.text18.message.ion-ios-email
+                                li.pad-right-10.inline
+                                    a.deconon(href="")
+                                        i.text18.rss.ion-social-rss
+                                li.pad-right-10.inline
+                                    a.deconon.negro.buscar(href="") BUSCAR
+                                        i.text18.negro.ion-android-search
+        seccion.menu-diario
+            .container
+                .row
+                    .col-md-5.text-center
+                        img.pad-top-35.mar-top-20(src="image/logo-la-republica.jpg", alt="la republica")
+                    .col-md-3
+                        .especial.mar-top-35.text-center
+                            p.sobre1 DOMINGO
+                            .dentro1 HABLA LA LIDERESA DEL NACIONALISMO
+                    .col-md-4
+                        .editorial.mar-top-35.mar-bottom-20
+                            img.hori.img.responsive(src="image/img_editorial_text.jpg", alt="editorial")
+                            p.text-center.frase-principal.bold.pad-top-5 La corrupción, los orígenes
+                            p.text-center.frase-secundaria por:  Gustavo Mohme Llana
+                            img.author(src="image/img_author.jpg", alt="autor")
+                .row
+                    .col-md-12
+                        div
+                            nav
+                                ul.fancyNav
+                                    li#politica
+                                        a(href="#politica ") POLÍTICA
+                                    li#economia
+                                        a(href="#economia") ECONOMÍA
+                                    li#sociedad
+                                        a(href="#sociedad") SOCIEDAD
+                                    li#elecc
+                                        a(href="#elecc") ELECC. REGIONALES
+                                    li#deportes
+                                        a(href="#deporte") DEPORTES
+                                    li#champions
+                                        a(href="#champions") CHAMPIONS L.
+                                    li#espectaculos
+                                        a(href="#espectaculos") ESPECTÁCULOS
+                                    li#impresa
+                                        a(href="#impresa") ED. IMPRESA
+                                    li#regional
+                                        a(href="#regional") REGIONALES
+                                    li#mas-secciones
+                                        a(href="#mas-secciones") MÁS SECCIONES           
+                .row
+                    .col-md-1
+                        .publicidad-izquierda
+                            img(src="image/publicidad_1.png", alt="")
+                    .col-md-10
+                        .temas.inline.bg-gris.relative
+                            .title.inline.bg-negro.color-blanco.pad-topbot-5.pad-riglef-8 TEMAS DEL DÍA
+                            ul.list-style.inline.pad-topbot-5.bg-gris.pad-left-0.color-negro
+                                li.pad-left-5.inline
+                                    a.color-negro.pad-left-5s(href="")
+                                        i.ion-ios-arrow-back
+                                li.pad-left-5.inline
+                                    a.color-negro.pad-left-5.text12(href="") Globos de oro
+                                li.pad-right-5.inline &#8226;
+                                    a.color-negro.pad-left-5.text12(href="") Youtube
+                                li.pad-right-5.inline &#8226;
+                                    a.color-negro.pad-left-5.text12(href="") PNP
+                                li.pad-right-5.inline &#8226;
+                                    a.color-negro.pad-left-5.text12(href="") Chalie Hebdo
+                                li.pad-right-5.inline &#8226;
+                                    a.color-negro.pad-left-5.text12(href="") FC Barcelona
+                                li.pad-right-5.inline &#8226;
+                                    a.color-negro.pad-left-5.text12(href="") Alianza Lima
+                                li.pad-right-5.inline &#8226;
+                                    a.color-negro.pad-left-5.text12(href="") Balón de Oro
+                                li.pad-right-5.inline &#8226;
+                                    a.color-negro.pad-left-5.text12(href="") Alianza Lima
+                                li.pad-right-5.inline &#8226;
+                                    a.color-negro.pad-left-5.text12(href="") Municipalidad
+                                li.pad-right-5.inline
+                                    a.color-negro.pad-left-5(href="")
+                                        i.ion-ios-arrow-forward
+                        .banner.mar-top-10
+                            img(src="image/banner-header.jpg", alt="Maestrías")
+                        .title-columnistas Columnistas
+                        p.ultimo.pad-top-35 LO ÚLTIMO EN COLUMNISTAS
+                            a.pad-left-5(href="#")
+                                img(src="image/double-arrow-bottom.png", alt="")
+                        ul.list-style.inline.columnas
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold.pad-bottom-25 El gol de la muerte
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Augusto Álvarez Rodrich
+                                            p.sub.bold Claro y Directo
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold Dios ha muerto... tengo las manos cubiertas de sangre
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Mirko Lauer
+                                            p.sub.bold Observador
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold.pad-bottom-25 ¿Cuál es tu queso favorito?
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Aldo Miyashiro
+                                            p.sub.bold Chino de mi barrio
+                        ul.list-style.inline.columnas
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold.pad-bottom-25 El gol de la muerte
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Francisco Durand
+                                            p.sub.bold Tiro al blanco
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold Dios ha muerto... tengo las manos cubiertas de sangre
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Humberto Campodónico
+                                            p.sub.bold Cristal de Mira
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold.pad-bottom-25 ¿Cuál es tu queso favorito?
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                        ul.list-style.inline.columnas
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold.pad-bottom-25 El gol de la muerte
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Augusto Álvarez Rodrich
+                                            p.sub.bold Claro y Directo
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold Dios ha muerto... tengo las manos cubiertas de sangre
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Mirko Lauer
+                                            p.sub.bold Observador
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold.pad-bottom-25 ¿Cuál es tu queso favorito?
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Aldo Miyashiro
+                                            p.sub.bold Chino de mi barrio
+                        ul.list-style.inline.columnas
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold.pad-bottom-25 El gol de la muerte
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Francisco Durand
+                                            p.sub.bold Tiro al blanco
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold Dios ha muerto... tengo las manos cubiertas de sangre
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Humberto Campodónico
+                                            p.sub.bold Cristal de Mira
+                            li.columnistas-destacados.mar-top-25.text-center.inline.mar-left-15
+                                p.pad-top-25.text12 Lunes, 14 de Julio del 2015
+                                p.text18.bold.pad-bottom-25 ¿Cuál es tu queso favorito?
+                                .bg-gris.pad-top-15.margin-10.text-left.pad-left-10
+                                    .img-author.inline
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                        .text-center.mar-top-10
+                            a.btn-columnas.color-blanco(href="#") TODAS LAS COLUMNAS
+                        p.ultimo.pad-top-35.pad-bottom-10 TODOS LOS COLUMNISTAS
+                            a.pad-left-5(href="#")
+                                img(src="image/double-arrow-bottom.png", alt="")
+                        .orden-columnistas
+                            ul.list-style
+                                li.inline.mar-left-50
+                                    a.opciones.color-blanco.bold(href="") TODOS
+                                li.inline.mar-left-25
+                                    a.opciones.color-blanco.bold(href="") A B C
+                                li.inline.mar-left-25
+                                    a.opciones.color-blanco.bold(href="") D E F
+                                li.inline.mar-left-25
+                                    a.opciones.color-blanco.bold(href="") G H I
+                                li.inline.mar-left-25
+                                    a.opciones.color-blanco.bold(href="") J K L
+                                li.inline.mar-left-25
+                                    a.opciones.color-blanco.bold(href="") M N O
+                                li.inline.mar-left-25
+                                    a.opciones.color-blanco.bold(href="") PQRS
+                                li.inline.mar-left-25
+                                    a.opciones.color-blanco.bold(href="") TUV
+                                li.inline.mar-left-25
+                                    a.opciones.color-blanco.bold(href="") WXYZ
+                    .col-md-1
+                        .publicidad-derecha
+                            img(src="image/Publicidad_2.png", alt="")
+            .container
+                .row
+                    .col-md-1
+                    .col-md-8
+                        .lista-columnistas
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-15.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-15.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-15.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-15.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                            ul.list-style.pad-left-0.columnas1
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                                li.bg-gris.list-colum.mar-top-5.inline
+                                    .img-author.inline.sombra
+                                        img.img-responsive.autor(src="image/img_author_columnista.jpg", alt="")
+                                    .informacion.text-left.inline.pad-left-10
+                                        p.nombre-autor.bold Javier Ágreda
+                                            p.sub.bold Jaque Perpetuo
+                    .col-md-1
+            include footer.jade
