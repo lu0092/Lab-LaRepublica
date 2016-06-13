@@ -15,3 +15,17 @@
 .color-gris {
   color: #919191;
 }
+
+.title-grupo {
+  font-size: 22px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.ptsans {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.direccion {
+  line-height: 0.8;
+  font-size: 15px;
+}

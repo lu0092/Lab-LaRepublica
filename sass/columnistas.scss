@@ -46,6 +46,19 @@ $gris:#727272;
 .sub{
 	color:$gris;
 }
+.sub1{
+	color:$gris;
+	position:absolute;
+	right:-10;
+	top:-8px;
+}
+.nombre-autor1{
+	font-family:$oswall;
+	font-size:$m12;
+	position:absolute;
+	right:21;
+	top:-30px;
+}
 .nombre-autor{
 	font-family:$oswall;
 	font-size:$m12;
@@ -53,6 +66,8 @@ $gris:#727272;
 .informacion{
 	position:relative;
 	top:-18px;
+	width:68%;
+	height:20px;
 }
 .columnas{
 	width:98%;
@@ -81,6 +96,12 @@ $gris:#727272;
 .list-colum{
 	padding:10px;
 	width:23.7%;
+	height:100px;
+}
+.list-colum1{
+	padding:10px;
+	width:23.7%;
+	height:80px;
 }
 .list-colum:hover{
 	background-color:#fff;
@@ -91,4 +112,7 @@ $gris:#727272;
 }
 .columnas1{
 	width:980px;
+}
+.mar-bottom-0{
+	margin-bottom:0;
 }

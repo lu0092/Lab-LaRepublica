@@ -1,4 +1,7 @@
 $gris-claro:#919191;
+$m15:15px;
+$m20:20px;
+$m22:22px;
 .text10{
 	font-size:12px;
 	line-height:0.5;
@@ -9,8 +12,18 @@ $gris-claro:#919191;
 }
 .post-footer{
 	border-top:2px groove #fff;
-	
 }
 .color-gris{
 	color:$gris-claro;
+}
+.title-grupo{
+	font-size:$m22;
+	font-family: 'PT Sans', sans-serif;
+}
+.ptsans{
+	font-family: 'PT Sans', sans-serif;
+}
+.direccion{
+	line-height:0.8;
+	font-size:$m15;
 }
