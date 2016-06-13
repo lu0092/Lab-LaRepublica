@@ -1,0 +1,17 @@
+.text10 {
+  font-size: 12px;
+  line-height: 0.5;
+}
+
+.grupo-repu {
+  border-right: 2px groove #fff;
+  height: 330px;
+}
+
+.post-footer {
+  border-top: 2px groove #fff;
+}
+
+.color-gris {
+  color: #919191;
+}
