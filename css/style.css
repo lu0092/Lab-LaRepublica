@@ -1,11 +1,65 @@
-.titulogris {
-  font: "Oswald", sans-serif;
-  color: #919191;
-  margin: 12px;
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.pad-riglef-8 {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.pad-riglef-20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.pad-top-5 {
+  padding-top: 5px;
+}
+
+.pad-top-10 {
+  padding-top: 10px;
+}
+
+.pad-top-15 {
+  padding-top: 15px;
+}
+
+.pad-top-18 {
+  padding-top: 18px;
+}
+
+.pad-top-20 {
+  padding-top: 20px;
+}
+
+.mar-left-35 {
+  margin-left: 35px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 li {
   list-style-type: none;
+}
+
+* {
+  outline: 1px solid red;
+}
+
+.titulogris {
+  font: "Oswald", sans-serif;
+  color: #919191;
+  margin: 12px;
 }
 
 .imgnoti {
@@ -17,22 +71,48 @@ li {
 }
 
 .bg-imgpuntos {
-  background-image: url(../image/puntitos.jpg);
+  background-image: url(../image/puntitos.jpg) cover;
   background-repeat: repeat;
+  width: 100%;
+  text-align: center;
+  padding: 0;
 }
 
 .bg-white {
   background-color: #fff;
   margin-top: 50px;
   width: 80%;
-  height: 380px;
+  display: inline-block;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.abso {
+.inputentrada {
+  border-radius: 3px;
+  background-color: #EEEEEE;
+  display: block;
+  width: 100%;
+}
+
+button {
+  background-color: #de0000;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.icono {
   position: absolute;
+  top: -45px;
+  left: 37%;
 }
 
-.imgiconos {
-  margin: 50px;
+.logo {
+  margin: 25px 90px;
+}
+
+.borde {
+  border: 1px solid #727272;
+  margin: 0px;
 }

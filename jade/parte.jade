@@ -23,24 +23,6 @@ html(lang='es-PE')
     script(type='text/javascript', src='js/modernizr.custom.68172.js')
     script(type='text/javascript', src='js/respond.js')
   body
-<<<<<<< HEAD
-      seccion.container
-        .row
-          .col-md-2
-            //- espacio
-          .col-md-5
-            h3.titulogris ÚLTIMAS NOTICIAS
-              | 
-              img(src="image/double-arrow-bottom.png")
-            mixin noticias(hacetiempo, titular, foto, parrafo,comenta,categoria)
-              .row         
-                p= hacetiempo
-                h3= titular
-                .col-md-3
-                  img.imgnoti(src=foto)
-                .col-md-9
-                  p.mar-left= parrafo
-=======
     seccion.container
       .row
         .col-md-2
@@ -49,7 +31,7 @@ html(lang='es-PE')
           h3.titulogris ÚLTIMAS NOTICIAS
             | 
             img(src="image/double-arrow-bottom.png")
-          mixin noticias(hacetiempo, titular, foto, parrafo)
+          mixin noticias(hacetiempo, titular, foto, parrafo,comenta,categoria)
             .row         
               p= hacetiempo
               h3= titular
@@ -57,7 +39,6 @@ html(lang='es-PE')
                 img.imgnoti(src=foto)
               .col-md-9
                 p.mar-left= parrafo
->>>>>>> 0720e516cc1569e8dc0293b61bc6a082423ec1a4
                   ul.list-style
                     li.inline
                       .icon.inline
@@ -68,91 +49,60 @@ html(lang='es-PE')
                         a.googleplus.inline.ion-social-googleplus(href="#")
                     img.pad-riglef-8(src="image/bullet.gif")
                     img.pad-riglef-8(src="image/ico_comment.png")
-<<<<<<< HEAD
                     p.inline= comenta
                     img.pad-riglef-8(src="image/bullet.gif")
                     p.inline= categoria
-                hr
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
-            +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
-            +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
-            +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
-            +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
-            +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
-            +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
-            +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
-            
-          .col-md-3
-            .row.bg-imgpuntos
-              .bg-white.relative
-                img.absolute(src='image/img_sucribe.png')
-=======
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
-          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
-          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
-          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
-          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
-          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
-          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
-          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
-          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
-              .col-md-3
-            .srow.bg-imgpuntos
-              .bg-white
-                img.relative(src='image/img_sucribe.png')
->>>>>>> 0720e516cc1569e8dc0293b61bc6a082423ec1a4
-                h3
-                  strong Suscríbete a nuestro boletín               
-                input(type='text')
+            .row
+              hr
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','15','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', 'image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...', '10','REGIONAL')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', 'image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.','0','ESPECTÁCULOS')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', 'image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...','5', 'LÍBERO')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', 'image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba','8','VIDEOS')
+          
+        .col-md-3.mar-left-35
+          .row.bg-imgpuntos
+            .bg-white.relative
+              img.icono(src='image/img_sucribe.png')
+              h3.mar-top-15
+                strong Suscríbete a nuestro boletín               
+              input.mar-top-15.inputentrada.pad-riglef-20(type='text')
                   |               
-                button SUSCRIBIRSE               
-            .row.borde
-              img.text-center(src="image/logo_aweita.jpg")
+              button.mar-top-15.pad-riglef-20 SUSCRIBIRSE               
+          .row.borde
+              img.logo(src="image/logo_aweita.jpg")
               mixin aweita
                 ul
                   li.row
                     .col-md-4
                       img(src="image/img_aweita.jpg")
                     .col-md-8
-                      p Juan Roman Riquelme el adi&ograve;s al &quot;&Ugrave;ltimo 10 de Argentina&quot;
+                      p Juan Roman Riquelme ; al último 10 de Argentina;
               +aweita
               +aweita
               +aweita
