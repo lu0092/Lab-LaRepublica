@@ -39,16 +39,14 @@ html(lang='es-PE')
                   img.imgnoti(src=foto)
                 .col-md-9
                   p.mar-left= parrafo
-                  ul
-                    li.pad-right-10.inline      
-                      a.deconon(href="") 
-                        i.text18.fb.ion-social-facebook
-                    li.pad-right-10.inline      
-                      a.deconon(href="") 
-                        i.text18.fb.ion-social-twitter
-                    li.pad-right-10.inline      
-                      a.deconon(href="") 
-                        i.text18.fb.ion-social-googleplus
+                  ul.list-style
+                    li.inline
+                      .icon.inline
+                        a.fb.inline.ion-social-facebook(href="#")
+                      .icon.inline
+                        a.twitter.inline.ion-social-twitter(href="#")
+                      .icon.inline
+                        a.googleplus.inline.ion-social-googleplus(href="#")
                 hr
             +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
             +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
