@@ -131,14 +131,18 @@ html(lang='es-PE')
                   p.pflo1.absolute Resultados de eliminatoriastxt
               +lista
               +lista
+              +lista
+              +lista
             .row
               hr.mar-top-25.mar-bottom-25
             .row.borderojo.mar-top-35.relative
               p.rojo CARLINCATURA DEL DÌA
                 p.text-center.text-bold Carlincaturas 30-01-2015
-                img(scr="image/img_carlincatura_sd.jpg")
-            div
-              hr.linea-gris
+                img.rojimg(src="image/img_carlincatura_sd.jpg")
+                p.text-bold.roj.text-center Todas las carlincaturas
+            .row
+              hr.mar-top-25.mar-bottom-25
+            .row.bordegris.mar-top-35.relative
               p.gris NUESTROS BLOGUEROS
               mixin blogueros
                 ul
@@ -156,9 +160,11 @@ html(lang='es-PE')
               +blogueros
               +blogueros
               +blogueros
-            div
-              hr.linea-roja
-              p.roja La Republica - Lima
+              p.text-bold.roj.text-center Todas los blogs
+            .row
+              hr.mar-top-25.mar-bottom-25
+            .row.borderojo.mar-top-35.relative
+              p.rojo La Republica - Lima
               img(src="image/img_submenu_edimpresa.jpg")
               mixin impresa
                 ul
@@ -171,9 +177,10 @@ html(lang='es-PE')
               +impresa
               +impresa
               +impresa
-            div
-              hr.linea-roja
-              p.roja Infografías
+            .row
+              hr.mar-top-25.mar-bottom-25
+            .row.borderojo.mar-top-35.relative
+              p.rojo Infografías
               +lista
               +lista
             div.bg-imgpuntos

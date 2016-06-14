@@ -202,3 +202,16 @@ button {
   padding-top: 35px;
   border-bottom: 1px solid #919191;
 }
+
+.roj {
+  color: #ec5454;
+  margin: 10px;
+}
+
+.rojimg {
+  margin: auto;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
