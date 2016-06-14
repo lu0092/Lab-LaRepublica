@@ -1,15 +1,22 @@
-$gris-claro:#919191;
-$rojorepu:#de0000;
 $oswall:'Oswald', sans-serif;
+$gris-claro:#919191;
+$gris:#727272;
 $blanco: #fff;
+$rojo-bajo:#ec5454;
+$blanco:#fff;
+$azulfb:#3b5998;
+$azultwitter:#00aced;
+$rojogp:#d34836;
+$rojorepu:#de0000;
+$message:#FFCF01;
+$rss:#ff6600;
+$negro:#000;
 $m5: 5px;
 $m8:8px;
 $m10:10px;
 $m11:11px;
 $m12:12px;
 $m15:15px;
-$gris-claro:#919191;
-$gris:#727272;
 $style:none;
 $inline:inline-block;
 $m2: 2px;
@@ -32,16 +39,8 @@ $m60:60px;
 $m150: 150px;
 $m200: 200px;
 $m100: 100%;
-$rojo-bajo:#ec5454;
-$blanco:#fff;
-$azulfb:#3b5998;
-$azultwitter:#00aced;
-$rojogp:#d34836;
-$rojorepu:#de0000;
-$message:#FFCF01;
-$rss:#ff6600;
-$negro:#000;
-*{outline:1px solid red;}
+
+// *{outline:1px solid red;}
 
 .titulogris{
 	font:$oswall;
@@ -54,12 +53,14 @@ li{
 .imgnoti{
 	margin-right:$m25;
 }
+.mar-left{
+	margin-left:$m10;
+}
 .bg-imgpuntos{
-	background-image:url(image/puntitos.jpg);
+	background-image:url(../image/puntitos.jpg);
 	background-repeat:repeat;}
 .bg-white{
 	background-color:$blanco;
-	margin:$m20;
 	margin-top:$m50;
 	width:80%;
 	height:380px;

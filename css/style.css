@@ -1,0 +1,38 @@
+.titulogris {
+  font: "Oswald", sans-serif;
+  color: #919191;
+  margin: 12px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.imgnoti {
+  margin-right: 25px;
+}
+
+.mar-left {
+  margin-left: 10px;
+}
+
+.bg-imgpuntos {
+  background-image: url(../image/puntitos.jpg);
+  background-repeat: repeat;
+}
+
+.bg-white {
+  background-color: #fff;
+  margin-top: 50px;
+  width: 80%;
+  height: 380px;
+  text-align: center;
+}
+
+.abso {
+  position: absolute;
+}
+
+.imgiconos {
+  margin: 50px;
+}
