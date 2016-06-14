@@ -26,7 +26,7 @@ html(lang='es-PE')
     seccion.container
       .row
         .col-md-2
-          //- espacio
+        //- espacio
         .col-md-5
           h3.titulogris ÚLTIMAS NOTICIAS
             | 
@@ -39,124 +39,240 @@ html(lang='es-PE')
                 img.imgnoti(src=foto)
               .col-md-9
                 p.mar-left= parrafo
-                ul.list-style
-                  li.inline
-                    .icon.inline
-                      a.fb.inline.ion-social-facebook(href="#")
-                    .icon.inline
-                      a.twitter.inline.ion-social-twitter(href="#")
-                    .icon.inline
-                      a.googleplus.inline.ion-social-googleplus(href="#")
-              hr
+                  ul.list-style
+                    li.inline
+                      .icon.inline
+                        a.fb.inline.ion-social-facebook(href="#")
+                      .icon.inline
+                        a.twitter.inline.ion-social-twitter(href="#")
+                      .icon.inline
+                        a.googleplus.inline.ion-social-googleplus(href="#")
+                    img.pad-riglef-8(src="image/bullet.gif")
+                    img.pad-riglef-8(src="image/ico_comment.png")
           +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
           +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
           +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
           +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
           +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
-        .col-md-3
-          .row.bg-imgpuntos
-            .bg-white
-              img.relative(src='image/img_sucribe.png')
-              h3
-                strong Suscríbete a nuestro boletín               
-              input(type='text')
-                |               
-              button SUSCRIBIRSE               
-          .row.borde
-            img.text-center(src="image/logo_aweita.jpg")
-            mixin aweita
-              ul
-                li.row
-                  .col-md-4
-                    img(src="image/img_aweita.jpg")
-                  .col-md-8
-                    p Juan Roman Riquelme el adi&ograve;s al &quot;&Ugrave;ltimo 10 de Argentina&quot;
-            +aweita
-            +aweita
-            +aweita
-            +aweita
-            p Màs en 
-              a(href='#') Aweita.pe              
-          div
-            hr.linea-gris
-            p.gris FOTOS DESTACADAS
-            img(src="image/img_fotodes_prominent.jpg")
-            p Lineas de Nasca: admiten prisi&ograve;n preventiva de 6 meses para activista de Greenpeace | FOTOS   
-          mixin destacadas
-              ul
-                li.row
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Roque Benavides respalda proyecto Tía María y espera que Conga se socialice', '../image/thumb-post-image.jpg', 'Zenaida Condori Contreras Arequipa Para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...')
+          +noticias('Hace 1 hora 12 mins', 'Emma Watson protagonizará La bella y la bestia | VIDEO', '../image/img_news_grid.jpg' , ' La actriz Emma Watson fue confirmada por Disney como la protagonista de &apos;La bella y la bestia&apos; en la version de carne y hueso.')
+          +noticias('Hace 1 hora 12 mins', 'Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid', '../image/img_aweita.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición ha llegado...')
+          +noticias('Hace 1 hora 12 mins', 'YouTube: hombre finge ahogarse y su perro lo rescata | FOTOS', '../image/aside-image-temasrelacionados-01.jpg' , 'Despues de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba')
+              .col-md-3
+            .srow.bg-imgpuntos
+              .bg-white
+                img.relative(src='image/img_sucribe.png')
+                h3
+                  strong Suscríbete a nuestro boletín               
+                input(type='text')
+                  |               
+                button SUSCRIBIRSE               
+            .row.borde
+              img.text-center(src="image/logo_aweita.jpg")
+              mixin aweita
+                ul
+                  li.row
+                    .col-md-4
+                      img(src="image/img_aweita.jpg")
+                    .col-md-8
+                      p Juan Roman Riquelme el adi&ograve;s al &quot;&Ugrave;ltimo 10 de Argentina&quot;
+              +aweita
+              +aweita
+              +aweita
+              +aweita
+              p Màs en 
+                a(href='#') Aweita.pe              
+            div
+              hr.linea-gris
+              p.gris FOTOS DESTACADAS
+              img(src="image/img_fotodes_prominent.jpg")
+              p Lineas de Nasca: admiten prisi&ograve;n preventiva de 6 meses para activista de Greenpeace | FOTOS   
+            mixin destacadas
+                ul
+                  li.row
+                    .col-md-5
+                      img(src="image/img_fotodes.jpg")
+                    .col-md-7
+                     p Uchuraccay: El pueblo que recibe con flores a quienes llegan de pie| FOTOS 
+            +destacadas
+            +destacadas
+            +destacadas
+            div
+              hr.linea-gris
+              p.gris ESPECIALES
+              mixin lista
+                ul
+                  li: img(src="image/img_grid_secundario.jpg")
+                  p Regimen laboral juvenil
+              +lista
+              +lista
+              +lista
+            hr
+            div
+              hr.linea-gris
+              p.gris CARLINCATURA DEL DÌA
+              p Carlincaturas 30-01-2015
+              img(scr="image/listado_carlincatura_thumb_03.jpg")
+            div
+              hr.linea-gris
+              p.gris NUESTROS BLOGUEROS
+              mixin blogueros
+                ul
+                  li.row
+                  .col-md-3
+                    img(src="image/img_blogueros.jpg")
+                  .col-md-9
+                    p Augusto Alvarez Rodrich
+                    p Disney como la protagonista de &apos;La bella.
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+            div
+              hr.linea-roja
+              p.roja La Republica - Lima
+              img(src="image/img_submenu_edimpresa.jpg")
+              mixin impresa
+                ul
+                  li.row
                   .col-md-5
-                    img(src="image/img_fotodes.jpg")
+                    img(src='image/img_impreso_sd.jpg')
                   .col-md-7
-                    p Uchuraccay: El pueblo que recibe con flores a quienes llegan de pie| FOTOS 
-          +destacadas
-          +destacadas
-          +destacadas
-          div
-            hr.linea-gris
-            p.gris ESPECIALES
-            mixin lista
-              ul
-                li: img(src="image/img_grid_secundario.jpg")
-                p Regimen laboral juvenil
-            +lista
-            +lista
-            +lista
-          hr
-          div
-            hr.linea-gris
-            p.gris CARLINCATURA DEL DÌA
-            p Carlincaturas 30-01-2015
-            img(scr="image/listado_carlincatura_thumb_03.jpg")
-          div
-            hr.linea-gris
-            p.gris NUESTROS BLOGUEROS
-            mixin blogueros
-              ul
-                li.row
-                .col-md-3
-                  img(src="image/img_blogueros.jpg")
-                .col-md-9
-                  p Augusto Alvarez Rodrich
-                  p Disney como la protagonista de &apos;La bella.
-            +blogueros
-            +blogueros
-            +blogueros
-            +blogueros
-            +blogueros
-            +blogueros
-            +blogueros
-            +blogueros
-          div
-            hr.linea-roja
-            p.roja La Republica - Lima
-            img(src="image/img_submenu_edimpresa.jpg")
-            mixin impresa
-              ul
-                li.row
-                .col-md-5
-                  img(src='image/img_impreso_sd.jpg')
-                .col-md-7
-                  p Extorsionan a menores en colegios
-                  p:a(href='#') La República
-            +impresa
-            +impresa
-            +impresa
-          div
-            hr.linea-roja
-            p.roja Infografías
-            +lista
-            +lista
-          div.bg-imgpuntos
-            div.bg-white
-              img(scr="image/img_pregunta.png")
-              h2 La pregunta de hoy
-              p ¿Cree usted que la premier Ana Jara debe renunciar?
-              input(type="radio",)
-              p Si
-              input(type="radio",)
-              p No
-              a(href="#") Ver resultdos 
+                    p Extorsionan a menores en colegios
+                    p:a(href='#') La República
+              +impresa
+              +impresa
+              +impresa
+            div
+              hr.linea-roja
+              p.roja Infografías
+              +lista
+              +lista
+            div.bg-imgpuntos
+              div.bg-white
+                img(scr="image/img_pregunta.png")
+                h2 La pregunta de hoy
+                p ¿Cree usted que la premier Ana Jara debe renunciar?
+                input(type="radio",)
+                p Si
+                input(type="radio",)
+                p No
+                a(href="#") Ver resultdos 
+              div.bg-white
+                h2 La pregunta de ayer
+                p ¿Cree usted que se militarizo la conmemoracion del fallo de la Haya en Lima?
+                div
+                  div.verde
+                    p.absolute 55%
+                  div.rayas
+                div
+                  div.rojo
+                    p.absolute 25%
+                  div.rayas
+                p No
+                a(href="#") Ver preguntas pasadas
+            div.borde
+              img(scr="image/logo_libero.jpg")
+              mixin libero
+                ul
+                  li.row
+                    .col-md-5
+                      img(src="image/img_fotodes.jpg")
+                    .col-md-7
+                      p Uchuraccay: El pueblo que recibe con flores a quienes llegan de pie| FOTOS 
+              +destacadas
+              +destacadas
+              +destacadas
+            div
+              hr.linea-gris
+              p.gris ESPECIALES
+              mixin lista
+                ul
+                  li: img(src="image/img_grid_secundario.jpg")
+                  p Regimen laboral juvenil
+              +lista
+              +lista
+              +lista
+            hr
+            div
+              hr.linea-gris
+              p.gris CARLINCATURA DEL DÌA
+              p Carlincaturas 30-01-2015
+              img(scr="image/listado_carlincatura_thumb_03.jpg")
+            div
+              hr.linea-gris
+              p.gris NUESTROS BLOGUEROS
+              mixin blogueros
+                ul
+                  li.row
+                  .col-md-3
+                    img(src="image/img_blogueros.jpg")
+                  .col-md-9
+                    p Augusto Alvarez Rodrich
+                    p Disney como la protagonista de &apos;La bella.
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+              +blogueros
+            div
+              hr.linea-roja
+              p.roja La Republica - Lima
+              img(src="image/img_submenu_edimpresa.jpg")
+              mixin impresa
+                ul
+                  li.row
+                  .col-md-5
+                    img(src='image/img_impreso_sd.jpg')
+                  .col-md-7
+                    p Extorsionan a menores en colegios
+                    p:a(href='#') La República
+              +impresa
+              +impresa
+              +impresa
+            div
+              hr.linea-roja
+              p.roja Infografías
+              +lista
+              +lista
+            div.bg-imgpuntos
+              div.bg-white
+                img(scr="image/img_pregunta.png")
+                h2 La pregunta de hoy
+                p ¿Cree usted que la premier Ana Jara debe renunciar?
+                input(type="radio",)
+                p Si
+                input(type="radio",)
+                p No
+                a(href="#") Ver resultdos 
             div.bg-white
               h2 La pregunta de ayer
               p ¿Cree usted que se militarizo la conmemoracion del fallo de la Haya en Lima?
