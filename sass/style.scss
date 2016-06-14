@@ -22,8 +22,8 @@ $inline:inline-block;
 $m2: 2px;
 $m5: 5px;
 $m8:8px;
-$m10: 10px;
-$m11: 11px;
+$m10:10px;
+$m11:11px;
 $m12:12px;
 $m15:15px;
 $m18:18px;
@@ -71,6 +71,9 @@ $m23m:23%;
 .pad-top-20{
 	padding-top:$m20;
 }
+.pad-bo-30{
+	padding-bottom:$m30;
+}
 .mar-left-35{
 	margin-left:$m35;
 }
@@ -80,11 +83,12 @@ $m23m:23%;
 .text-center{
 	text-align:center;
 }
+.text-bold{font-weight:bold;}
 li{
 	list-style-type:$style;
 }
 
-*{outline:1px solid red;}
+// *{outline:1px solid red;}
 
 .titulogris{
 	font:$oswall;
@@ -101,7 +105,7 @@ li{
 
 
 .bg-imgpuntos{
-	background-image:url(../image/puntitos.jpg) cover;
+	background-image:url(../image/puntitos.jpg) ;
 	background-repeat:repeat;
 	width:100%;
 	text-align: center;
@@ -123,8 +127,9 @@ button{
 	background-color:$rojorepu;
 	border-radius:5px;
 	padding:10px;
+	padding-bottom:30px;
 	width:100%;
-	margin-bottom:$m8;
+	margin-bottom:$m30;
 }
 .icono{
 	position:absolute;
@@ -137,5 +142,72 @@ margin:$m25 $m70;
 }
 .borde{
 	border: 1px  solid $gris;
-	margin:0px;
+	position:relative;
+	padding-bottom:50px;
+}
+.imgawe{
+	margin-left:0px;
+	margin-right:$m10;
+}
+.pawe{
+	margin-left:$m15;
+}
+.morado{
+	border-bottom: 5px solid #663399;
+	width: 35%;
+	position:absolute;
+	left:30%;
+	bottom:-10px;
+}
+.text-morado{
+	color:#663399;
+	font-weight:bold;
+}
+.bordegris{
+	border-top: 5px solid $gris-claro;
+	padding-top:$m35;
+}
+.gris{
+	background-color:$gris-claro;
+	width:50%;
+	padding:$m8;
+	position:absolute;
+	left:25%;
+	top:-12px;
+	color:$blanco;
+	text-align:center;
+	margin-bottom:$m20;}
+.imggris{
+	width:100%;
+}
+.pgris{
+	font-size:$m20;
+}
+.imgespe{
+	width:100%;
+	margin-left:0px;
+	margin-top:$m25;
+}
+.pflo1{
+	background-color:rgba(255,255,255,0.6);
+	top:180px;
+	width:90%;
+	padding:$m25;
+	left:30px;
+	text-align:center;
+}
+.rojo{
+	background-color:$rojo-bajo;
+	width:55%;
+	padding:$m8;
+	position:absolute;
+	left:25%;
+	top:-12px;
+	color:$blanco;
+	text-align:center;
+	margin-bottom:$m20;}
+.borderojo{
+	border-top: 5px solid $rojo-bajo;
+	padding-top:$m35;
+	border-bottom: 1px solid $gris-claro;
 }

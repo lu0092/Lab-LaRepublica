@@ -36,6 +36,10 @@
   padding-top: 20px;
 }
 
+.pad-bo-30 {
+  padding-bottom: 30px;
+}
+
 .mar-left-35 {
   margin-left: 35px;
 }
@@ -48,12 +52,12 @@
   text-align: center;
 }
 
-li {
-  list-style-type: none;
+.text-bold {
+  font-weight: bold;
 }
 
-* {
-  outline: 1px solid red;
+li {
+  list-style-type: none;
 }
 
 .titulogris {
@@ -71,7 +75,7 @@ li {
 }
 
 .bg-imgpuntos {
-  background-image: url(../image/puntitos.jpg) cover;
+  background-image: url(../image/puntitos.jpg);
   background-repeat: repeat;
   width: 100%;
   text-align: center;
@@ -98,8 +102,9 @@ button {
   background-color: #de0000;
   border-radius: 5px;
   padding: 10px;
+  padding-bottom: 30px;
   width: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
 }
 
 .icono {
@@ -114,5 +119,86 @@ button {
 
 .borde {
   border: 1px solid #727272;
-  margin: 0px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.imgawe {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.pawe {
+  margin-left: 15px;
+}
+
+.morado {
+  border-bottom: 5px solid #663399;
+  width: 35%;
+  position: absolute;
+  left: 30%;
+  bottom: -10px;
+}
+
+.text-morado {
+  color: #663399;
+  font-weight: bold;
+}
+
+.bordegris {
+  border-top: 5px solid #919191;
+  padding-top: 35px;
+}
+
+.gris {
+  background-color: #919191;
+  width: 50%;
+  padding: 8px;
+  position: absolute;
+  left: 25%;
+  top: -12px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imggris {
+  width: 100%;
+}
+
+.pgris {
+  font-size: 20px;
+}
+
+.imgespe {
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 25px;
+}
+
+.pflo1 {
+  background-color: rgba(255, 255, 255, 0.6);
+  top: 180px;
+  width: 90%;
+  padding: 25px;
+  left: 30px;
+  text-align: center;
+}
+
+.rojo {
+  background-color: #ec5454;
+  width: 55%;
+  padding: 8px;
+  position: absolute;
+  left: 25%;
+  top: -12px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.borderojo {
+  border-top: 5px solid #ec5454;
+  padding-top: 35px;
+  border-bottom: 1px solid #919191;
 }
