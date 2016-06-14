@@ -352,7 +352,7 @@ $negro:#000;
 	font-size:20px;
 }
 .columnistas{
-	height:300px;
+	height:270px;
 }
 .colum{
 	color:$rojorepu;
@@ -378,13 +378,41 @@ $negro:#000;
 	border:3px solid $blanco;
 }
 .augusto{
-
 	width:16%;	
 }
-
 .foto-augusto{
 	width:54%;
 	border:3px solid $blanco;
+}
+.primicia{
+    border:1px solid #000;
+    width:40%;
+}
+.banner{
+    position:absolute;
+    right:0;
+}
+.title-primicia{
+    color:$rojorepu;
+}
+.text-grid3{
+    background-image: -webkit-gradient(
+    linear, left top, left bottom, from(rgba(80,80,80,0.2)),
+    to(rgba(50,50,50,0.8))
+);
+    position:absolute;
+    bottom:0px;
+    font-size: 15px;
+    padding:40px;
+    margin-right:10px;
+    padding-top:0px;
+    width:100%;
+    padding-bottom:50px;
+}
+.text-primicia{
+    position: relative;
+    left:-25px;
+    bottom:-50px;  
 }
 .fancyNav li{
 	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
