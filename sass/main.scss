@@ -128,8 +128,12 @@ $negro:#000;
 	margin-top:$m25;}
 .mar-top-35{
 	margin-top:$m35;}
+.mar-top-60{
+	margin-top:$m60;}
 .mar-bottom-35{
 	margin-bottom:$m35;}
+.mar-bottom-10{
+	margin-bottom:$m10;}
 .mar-bottom-20{
 	margin-bottom:$m20;}
 .margin-10{
@@ -153,11 +157,11 @@ $negro:#000;
 .mar-left-50{
 	margin-left:$m50;
 }
-.mar-right-35{
-	margin-right:$m35;
-}
 .mar-right-50{
 	margin-right:$m50;
+}
+.mar-right-10{
+	margin-right:$m10;
 }
 .bg-gris{
 	background-color:$gris-claro;
@@ -350,7 +354,7 @@ $negro:#000;
 	font-size:20px;
 }
 .columnistas{
-	height:300px;
+	height:270px;
 }
 .colum{
 	color:$rojorepu;
@@ -376,13 +380,41 @@ $negro:#000;
 	border:3px solid $blanco;
 }
 .augusto{
-
 	width:16%;	
 }
-
 .foto-augusto{
 	width:54%;
 	border:3px solid $blanco;
+}
+.primicia{
+    border:1px solid #000;
+    width:40%;
+}
+.banner{
+    position:absolute;
+    right:0;
+}
+.title-primicia{
+    color:$rojorepu;
+}
+.text-grid4{
+    background-image: -webkit-gradient(
+    linear, left top, left bottom, from(rgba(80,80,80,0.2)),
+    to(rgba(50,50,50,0.8))
+);
+    position:absolute;
+    bottom:0px;
+    font-size: 15px;
+    padding:40px;
+    margin-right:10px;
+    padding-top:0px;
+    width:100%;
+    padding-bottom:50px;
+}
+.text-primicia{
+    position: relative;
+    left:-25px;
+    bottom:-50px;  
 }
 .fancyNav li{
 	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
